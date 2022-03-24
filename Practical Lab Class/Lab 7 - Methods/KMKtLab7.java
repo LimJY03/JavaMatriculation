@@ -1,3 +1,5 @@
+//just testing the mechanism of the pull request lmao
+
 import java.util.Scanner;
 
 class KMKtLab7{}
