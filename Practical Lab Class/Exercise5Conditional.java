@@ -13,7 +13,7 @@
  import java.util.Scanner;
  import java.text.DecimalFormat;
 
- class Exercise5Array{
+ class Exercise5Conditional{
 
     public static void main(String[] args){
 
