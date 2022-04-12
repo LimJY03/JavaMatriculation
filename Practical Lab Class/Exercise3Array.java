@@ -18,8 +18,8 @@ class Exercise3Array{
         Scanner sc = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#0.00");
         double salaryInput = 0, salary[] = new double[12], salaryTotal = 0, salaryAverage = 0, salarySearch = 0;
-        String monthNameFull[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-        String monthNameShort[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+        final String monthNameFull[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        final String monthNameShort[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
         String salaryTotalFormatted = "", salaryAverageFormatted = "", searchInput = "", monthSearch = "", salarySearchFormatted = "";
 
         //Get user input & perform calculations
@@ -51,22 +51,22 @@ class Exercise3Array{
         searchInput = sc.next();
 
         //Search for the value
-        for(int j = 0; j < monthNameFull.length + 1; j++){
+        for(int j = 0; j < salary.length + 1; j++){
 
-            if(searchInput.equalsIgnoreCase(monthNameFull[j]) || searchInput.equalsIgnoreCase(monthNameShort[j])){
-                salarySearch = salary[j];
-                monthSearch = monthNameFull[j];
-
-                //Display the salary for searched month
-                salarySearchFormatted = df.format(salarySearch);
-                System.out.println("The salary for " + monthSearch + " is RM " + salarySearchFormatted);
-
-                break;
-            }
-            else if(j == monthNameFull.length){
+            if(j == salary.length){
                 System.out.println("The keyword entered is not invalid");
                 break;
             }
+            else if(searchInput.equalsIgnoreCase(monthNameFull[j]) || searchInput.equalsIgnoreCase(monthNameShort[j])){
+                    salarySearch = salary[j];
+                    monthSearch = monthNameFull[j];
+
+                    //Display the salary for searched month
+                    salarySearchFormatted = df.format(salarySearch);
+                    System.out.println("The salary for " + monthSearch + " is RM " + salarySearchFormatted);
+
+                    break;
+            }   
         }
 
         //Prevent resource leak from scanner
