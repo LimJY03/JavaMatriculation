@@ -241,3 +241,49 @@ class NewtonRaphsonMethod{
         sc.close();
     }
 }
+
+class MethodReturnObjects{
+
+    public static void main(String[] args){
+
+        MethodReturnObjects program = new MethodReturnObjects();
+        double temperatureCelcius[] = {50, 30, 20, 40, 10};
+        int stationID[] = {1, 2, 3, 4, 5}, dupes[] = new int[5];
+        String stationName[] = {"a a", "b b", "c c", "d d", "e e"};
+        Object maximumTemperatureDataset[] = program.getMaximumTemperature(stationID, stationName, temperatureCelcius);
+
+        int stationIDMax = (int)maximumTemperatureDataset[0];
+        String stationNameMax = maximumTemperatureDataset[1].toString();
+        double temperatureMax = (double)maximumTemperatureDataset[2];
+        dupes = (int[])maximumTemperatureDataset[3];
+
+        System.out.println("Station ID: " + stationIDMax);
+        System.out.println("Station Name: " + stationNameMax);
+        System.out.println("Station Temperature: " + temperatureMax);
+        System.out.println("Dupes: " + dupes[0]);
+        System.out.println("Dupes: " + dupes[1]);
+        System.out.println("Dupes: " + dupes[2]);
+        System.out.println("Dupes: " + dupes[3]);
+        System.out.println("Dupes: " + dupes[4]);
+    }
+
+    Object[] getMaximumTemperature(int stationID[], String stationName[], double temperatureCelcius[]){
+
+        Object maximumTemperatureDataset[] = new Object[4];
+        int maximumDuplicate[] = {5, 2, 3, 4, 10};
+        double temperatureMax = 0.0;
+
+        for(int i = 0; i < temperatureCelcius.length; i++){
+
+            if(temperatureCelcius[i] > temperatureMax){
+                maximumTemperatureDataset[0] = stationID[i];
+                maximumTemperatureDataset[1] = stationName[i];
+                maximumTemperatureDataset[2] = temperatureCelcius[i];
+                temperatureMax = temperatureCelcius[i];
+            }
+        }
+
+        maximumTemperatureDataset[3] = maximumDuplicate;
+        return maximumTemperatureDataset;
+    }
+}
