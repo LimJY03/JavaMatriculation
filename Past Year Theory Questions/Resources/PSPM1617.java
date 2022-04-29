@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class PSPM1617{}
 
-class Q4a{
+class Q5a{
 
     public static void main(String[] args){
 
@@ -22,7 +22,7 @@ class Q4a{
     }
 }
 
-class Q4b{
+class Q5b{
 
     public static void main(String[] args){
 
