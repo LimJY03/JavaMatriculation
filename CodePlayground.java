@@ -287,3 +287,31 @@ class MethodReturnObjects{
         return maximumTemperatureDataset;
     }
 }
+
+class StaticVariable{
+
+    int a = 10;
+    static int b = 11;
+
+    public static void main(String args[]){
+        
+        StaticVariable program = new StaticVariable();
+
+        program.displayNonStatic();
+        displayStatic();
+    }
+    
+    // Non-static method can use static and non-static global variables
+    void displayNonStatic(){
+
+        System.out.println("a: " + a); 
+        System.out.println("b: " + b);
+    }
+
+    // Static method can only use static globa; variables
+    static void displayStatic(){
+
+        System.out.println("Variable a cannot be fetched."); // Cannot make a static reference to the non-static field
+        System.out.println("b: " + b);     
+    }
+}
