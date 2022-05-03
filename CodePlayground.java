@@ -293,7 +293,7 @@ class StaticVariable{
     int a = 10;
     static int b = 11;
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         
         StaticVariable program = new StaticVariable();
 
