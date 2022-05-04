@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class PSPM1819{}
 
 class Q5{
@@ -21,5 +23,41 @@ class Q5{
         }
 
         System.out.print("Bravo!");
+    }
+}
+
+class Q6{
+
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the number of athletes: ");
+        final int n = sc.nextInt();
+
+        int id[] = new int[n], idWinner = 0;
+        double distanceLonger[] = new double[n], distanceLongest = 0.0;
+
+        for(int i = 0; i < id.length; i++){
+
+            System.out.print("Enter ID, Jump1, Jump2: ");
+            id[i] = sc.nextInt();
+            distanceLonger[i] = getLarger(sc.nextDouble(), sc.nextDouble());
+
+            if(distanceLonger[i] > distanceLongest){
+                idWinner = id[i];
+                distanceLongest = distanceLonger[i];
+            }
+        }
+
+        System.out.println("The winner is athlete with ID " + idWinner);
+        System.out.println("The winning jump is " + distanceLongest + "m.");
+
+        sc.close();
+    }
+
+    static double getLarger(double n1, double n2){
+
+        return n1 > n2 ? n1 : n2;
     }
 }
