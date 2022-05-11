@@ -100,3 +100,5 @@ Study the statement below, and then draw a flowchart to solve the problem.
 
 "Let's take N = 50 as a limit, then the program should print all numbers less than 50 which are divisible by 5. For this, divide each number from 0 to N by 5 and check their remainder. If the remainder is 0, simply print that number."
 
+> ![2021kmkt - Q2](https://github.com/LimJY03/JavaMatriculation/blob/main/Past%20Year%20Theory%20Questions/Resources/Images/2021kmkt%20-%20Q2.png?raw=true)
+
