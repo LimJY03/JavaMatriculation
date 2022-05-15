@@ -63,11 +63,11 @@ State one (1) process involved to produce the above output.
 
 Identify the steps in problems solving which involve the situations below.
 
-| Situation | Problem Solving Step |
-| --- | :---: |
-| Test the system and record all the problem found | Testing |
-| The design of pseudocode and flowchart | Design a Solution |
-| Ahmad is analyzing the process of a system that his team needs to develop. | Problem Analysis |
+> | Situation | Problem Solving Step |
+> | --- | :---: |
+> | Test the system and record all the problem found | Testing |
+> | The design of pseudocode and flowchart | Design a Solution |
+> | Ahmad is analyzing the process of a system that his team needs to develop. | Problem Analysis |
 
 # **Question 02**
 
