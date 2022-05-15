@@ -4,9 +4,9 @@ Table below shows the rate that is used to calculate the delivery cost based on 
 
 <table>
     <thead>
-        <th style="text-align:center">&emsp;Area code&emsp;</th>
-        <th style="text-align:center">Distance</th>
-        <th style="text-align:center">Delivery cost per<br>kilometer (RM)</th>
+        <th style="text-align: center">&emsp;Area code&emsp;</th>
+        <th style="text-align: center">Distance</th>
+        <th style="text-align: center">Delivery cost per<br>kilometer (RM)</th>
     </thead>
     <tbody>
         <tr>
@@ -63,22 +63,11 @@ State one (1) process involved to produce the above output.
 
 Identify the steps in problems solving which involve the situations below.
 
-> <table>
->     <tbody>
->         <tr>
->             <td>Test the system and record all the problem found</td>
->             <td style = "text-align: center">Testing</td>
->         </tr>
->         <tr>
->             <td>The design of pseudocode and flowchart</td>
->             <td style = "text-align: center">Design a Solution</td>
->         </tr>
->         <tr>
->             <td>Ahmad is analyzing the process of a system that his team needs to develop.</td>
->             <td style = "text-align: center">Problem Analysis</td>
->         </tr>
->     </tbody>
-> </table>
+| Situation | Problem Solving Step |
+| --- | :---: |
+| Test the system and record all the problem found | Testing |
+| The design of pseudocode and flowchart | Design a Solution |
+| Ahmad is analyzing the process of a system that his team needs to develop. | Problem Analysis |
 
 # **Question 02**
 
