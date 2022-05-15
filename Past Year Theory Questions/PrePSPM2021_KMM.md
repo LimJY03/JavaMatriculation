@@ -10,22 +10,22 @@ Table below shows the rate that is used to calculate the delivery cost based on 
     </thead>
     <tbody>
         <tr>
-            <td rowspan = 2 style="text-align:center">1</td>
-            <td style="text-align:center">&emsp;Under 5 kilometers&emsp;</td>
-            <td style="text-align:center">1.60</td>
+            <td rowspan = 2>1</td>
+            <td>&emsp;Under 5 kilometers&emsp;</td>
+            <td>1.60</td>
         </tr>
         <tr>
-            <td style="text-align:center">&emsp;5 kilometers or more&emsp;</td>
-            <td style="text-align:center">2.50</td>
+            <td>&emsp;5 kilometers or more&emsp;</td>
+            <td>2.50</td>
         </tr>
         <tr>
-            <td rowspan = 2 style="text-align:center">2</td>
-            <td style="text-align:center">&emsp;Under 5 kilometers&emsp;</td>
-            <td style="text-align:center">3.70</td>
+            <td rowspan = 2>2</td>
+            <td>&emsp;Under 5 kilometers&emsp;</td>
+            <td>3.70</td>
         </tr>
         <tr>
-            <td style="text-align:center">&emsp;5 kilometers or more&emsp;</td>
-            <td style="text-align:center">4.90</td>
+            <td>&emsp;5 kilometers or more&emsp;</td>
+            <td>4.90</td>
         </tr>
     </tbody>
 </table>
