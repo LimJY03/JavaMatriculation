@@ -73,10 +73,7 @@ Identify the steps in problems solving which involve the situations below.
 
 The following procedure describe how a bookstore calculates the price of an order from the total book price and the number of book that were ordered. Draw the flowchart for the procedure.
 
-<div style = "border: 1px solid white; padding: 10px; border-radius: 10px">
-    First enter the total book price and the number of books. Then calculate the tax (7.5% of the total book price) and calculate the shipping charge (RM 2 per book). Next, the price of the order is the sum of the total book price, the tax and the shipping charge. Print the price of the order.
-</div>
-<br>
+First enter the total book price and the number of books. Then calculate the tax (7.5% of the total book price) and calculate the shipping charge (RM 2 per book). Next, the price of the order is the sum of the total book price, the tax and the shipping charge. Print the price of the order.
 
 > ![2021kmm - Q2](https://github.com/LimJY03/JavaMatriculation/blob/main/Past%20Year%20Theory%20Questions/Resources/Images/2021kmm%20-%20Q2(1).png?raw=true)
 
@@ -127,15 +124,15 @@ Explain types of error as stated below.
 
 1. Logic Error
 
-    This error occurs when the program does not operate in the way it is intended to.
+    > This error occurs when the program does not operate in the way it is intended to.
 
 2. Syntax Error
 
-    This error occurs when the code does not follow the syntax rule of the programming language, that is detected by the compiler.
+    > This error occurs when the code does not follow the syntax rule of the programming language, that is detected by the compiler.
 
 3. Run-time Error
 
-    This error occurs when the program is running. It causes the program to terminate abnormally. The typical run-time error is due to input mistakes.
+    > This error occurs when the program is running. It causes the program to terminate abnormally. The typical run-time error is due to input mistakes.
 
 # **Question 04**
 
@@ -183,7 +180,7 @@ Produce output for the `Java` segment above.
 
 # **Question 05**
 
-What will be the output for the folllowing program?
+What will be the output for the following program?
 
 ```java
 int x = 12, y = x - 6;
