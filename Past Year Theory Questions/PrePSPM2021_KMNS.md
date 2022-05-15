@@ -34,7 +34,7 @@ Write an IPO analysis to input age and gender, the display the insurance policy 
     <tr>
         <td>Age ≥ 21</td>
         <td>Policy rate = 0.025</td>
-    </tr>>
+    </tr>
 </table>
 
 > **INPUT**
