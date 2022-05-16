@@ -315,3 +315,15 @@ class StaticVariable{
         System.out.println("b: " + b);     
     }
 }
+
+class TabTest{
+
+    public static void main(String[] args){
+
+        System.out.println("1\tNext Word Starts Here");
+        System.out.println("10\tNext Word Starts Here");
+        System.out.println(" 10\tNext Word Starts Here");
+
+        // "\t" works like a normal tab, it is not 4 whitespaces.
+    }
+}
