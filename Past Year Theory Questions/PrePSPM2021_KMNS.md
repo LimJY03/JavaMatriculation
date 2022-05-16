@@ -216,15 +216,15 @@ while (counter >=100){
 System.out.print("Sum of all number is");
 ```
 
-> Syntax Error and Logic Error
+> Syntax Error and Runtime Error
 > 
 > ```java
 > int sum = 0, counter = 10;
 > 
-> while(counter <= 100){
+> while(counter <= 100){ //Fixed Runtime Error: Infinite Loop
 > 
 >     sum += counter;
->     counter += 10;
+>     counter += 10; //Fixed Syntax Error: calculate add 10 to counter.
 > }
 > 
 > System.out.println("Sum of all multiplications of 10 from 10 to 100 is" + sum);
