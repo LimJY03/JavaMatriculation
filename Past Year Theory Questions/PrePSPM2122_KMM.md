@@ -155,9 +155,8 @@ while(num > 0){
 }
 ```
 
-> `while(num > 0)` should be corrected to `while(num >= 0)` since 0 is not a negative number.
-> 
-> `num = num + 1;` should be corrected to `num = sc.nextInt();` as it is supposed to be an input instead of increment of variable `num`.
+> 1. `while(num > 0)` should be corrected to `while(num >= 0)` since 0 is not a negative number.
+> 2. `num = num + 1;` should be corrected to `num = sc.nextInt();` as it is supposed to be an input instead of increment of variable `num`.
 
 What is the output of the following program segment?
 
@@ -264,56 +263,56 @@ Write a `Java` program to create a single dimensional array of 9 integers, and p
 * maximum integer
 * minimum integer
 
-```java
-import java.util.Scanner;
-
-class Q6{
-
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-        int num[] = new int[9], sumEvenIndex = 0, sumOddIndex = 0, sumAll = 0, sumEvenInt = 0, belowAvg = 0, intMax = 0, intMin = 9999999;
-        double average = 0.0;
-
-        for(int i = 0; i < num.length; i++){
-
-            System.out.print("Enter integer #" + (i + 1) + ": ");
-            num[i] = sc.nextInt();
-
-            // Sum of elements present at even indexes and odd indexes in array
-            if(i % 2 == 0){sumEvenIndex += num[i];}
-            else{sumOddIndex += num[i];}
-
-            // Sum for all integers in array
-            sumAll += num[i];
-
-            // Sum of even integers exist in the array
-            if(num[i] % 2 == 0){sumEvenInt += num[i];}
-
-            // Determine maximum and minimum integer
-            if(num[i] > intMax){intMax = num[i];}
-            if(num[i] < intMin){intMin = num[i];}
-        }
-        
-        // Determine average
-        average = (sumAll + 0.0) / num.length; // Convert (sumAll + 0.0) to double so will be double / int = double
-
-        // Determine number of elements below average
-        for(int j = 0; j < num.length; j++){
-
-            if(num[j] < average){belowAvg++;}
-        }
-
-        System.out.println("Sum of elements present at even indexes in array is " + sumEvenIndex);
-        System.out.println("Sum of elements present at odd indexes in array is " + sumOddIndex);
-        System.out.println("Sum of all integers in array is " + sumAll);
-        System.out.println("Sum of even integers exist in array is " + sumEvenInt);
-        System.out.println("Average is " + average);
-        System.out.println("Number of elements below average is " + belowAvg);
-        System.out.println("Maximum integer is " + intMax);
-        System.out.println("Minimum integer is " + intMin);
-
-        sc.close();
-    }
-}
-```
+> ```java
+> import java.util.Scanner;
+> 
+> class Q6{
+> 
+>     public static void main(String[] args){
+> 
+>         Scanner sc = new Scanner(System.in);
+>         int num[] = new int[9], sumEvenIndex = 0, sumOddIndex = 0, sumAll = 0, sumEvenInt = 0, belowAvg = 0, intMax = 0, intMin = 9999999;
+>         double average = 0.0;
+> 
+>         for(int i = 0; i < num.length; i++){
+> 
+>             System.out.print("Enter integer #" + (i + 1) + ": ");
+>             num[i] = sc.nextInt();
+> 
+>             // Sum of elements present at even indexes and odd indexes in array
+>             if(i % 2 == 0){sumEvenIndex += num[i];}
+>             else{sumOddIndex += num[i];}
+> 
+>             // Sum for all integers in array
+>             sumAll += num[i];
+> 
+>             // Sum of even integers exist in the array
+>             if(num[i] % 2 == 0){sumEvenInt += num[i];}
+> 
+>             // Determine maximum and minimum integer
+>             if(num[i] > intMax){intMax = num[i];}
+>             if(num[i] < intMin){intMin = num[i];}
+>         }
+>         
+>         // Determine average
+>         average = (sumAll + 0.0) / num.length; // Convert (sumAll + 0.0) to double so will be double / int = double
+> 
+>         // Determine number of elements below average
+>         for(int j = 0; j < num.length; j++){
+> 
+>             if(num[j] < average){belowAvg++;}
+>         }
+> 
+>         System.out.println("Sum of elements present at even indexes in array is " + sumEvenIndex);
+>         System.out.println("Sum of elements present at odd indexes in array is " + sumOddIndex);
+>         System.out.println("Sum of all integers in array is " + sumAll);
+>         System.out.println("Sum of even integers exist in array is " + sumEvenInt);
+>         System.out.println("Average is " + average);
+>         System.out.println("Number of elements below average is " + belowAvg);
+>         System.out.println("Maximum integer is " + intMax);
+>         System.out.println("Minimum integer is " + intMin);
+> 
+>         sc.close();
+>     }
+> }
+> ```
