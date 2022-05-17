@@ -125,5 +125,195 @@ The use of child car seats has become mandatory in Malaysia since January 2020. 
 
 ![Q4](https://media.discordapp.net/attachments/975199225036034088/975909090347876362/unknown.png)
 
-Write a Java program **segment** that will determine suitable type of car seat and its final price to a customer [Assume one customer has one child only]. Price of Rear- Facing car seat is RM454 with a 10% discount, price of Forward-Facing car seat is double the price of Booster seat. Booster seat is sold at RM178. (Assume all variables are already declared)
+Write a `Java` program **segment** that will determine suitable type of car seat and its final price to a customer [Assume one customer has one child only]. Price of Rear-Facing car seat is RM454 with a 10% discount, price of Forward-Facing car seat is double the price of Booster seat. Booster seat is sold at RM178. (Assume all variables are already declared)
 
+> ```java
+> System.out.print("Enter age of your trial: ");
+> age = sc.nextInt();
+> 
+> if(age < 3){
+>     type = "REAR-FACING CAR SEAR";
+>     price = 454 * (1 - 0.1);
+> }
+> else if(age > 5){
+>     type = "BOOSTER SEAT";
+>     price = 178;
+> }
+> else{
+>     type = "FORWARD-FACING CAR SEAT";
+>     price = 178 * 2;
+> }
+> ```
+
+Determine the error(s) in the following program that allows user to repeatedly enter a number until he/she has entered any negative number. Then, give the right coding.
+
+```java
+int num = sc.nextInt();
+
+while(num > 0){
+    num = num + 1;
+}
+```
+
+> `while(num > 0)` should be corrected to `while(num >= 0)` since 0 is not a negative number.
+> 
+> `num = num + 1;` should be corrected to `num = sc.nextInt();` as it is supposed to be an input instead of increment of variable `num`.
+
+What is the output of the following program segment?
+
+```java
+int num1 = 20;
+double num2;
+
+while(num1 < 32){
+
+    num2 = num1 % 3 + 2;
+
+    System.out.print(num2 + 1);
+    System.out.println();
+
+    num1 = num1 + 3;
+}
+```
+
+> ```markdown
+> 5.0
+> 5.0
+> 5.0
+> 5.0
+> ```
+
+Use `for` statement to rewrite the program segment above.
+
+> ```java
+> double num2;
+> 
+> for(int num1 = 20; num1 < 32; num1 += 3){
+> 
+>     num2 = num1 % 3 + 2;
+> 
+>     System.out.print(num2 + 1);
+>     System.out.println();
+> }
+> ```
+
+# **Question 05**
+
+What's wrong with the following main method program?
+
+```java
+public class Rectangle{
+
+    public static void main(String[] args){
+
+        Rectangle myRect;
+        int width = 40;
+        int height = 50l
+        System.out.println("Rectangle area is " + myRect.area());
+    }
+}
+```
+
+> The object `myRect` is not created.
+
+Write the correct syntax for error mentioned above.
+
+> ```java
+> Rectangle myRect = new Rectangle();
+> ```
+
+What is the output from the following `Java` program fragment?
+
+```java
+public class Method{
+
+    public static void main(String[] args){
+
+        Method myMethod = new Method();
+        int A = 10, B = 20;
+
+        myMethod.update(A, B);
+
+        System.out.println(A + " " + B);
+    }
+
+    void update(int x, int y){
+
+        x += y;
+        y += x;
+        System.out.println(x + " " + y);
+    }
+}
+```
+
+> ```markdown
+> 30 50
+> 10 20
+> ```
+
+# **Question 06**
+
+Write a `Java` program to create a single dimensional array of 9 integers, and print the followings:
+
+* sum of elements present at even indexes in array
+* sum of elements present at odd indexes in array.
+* sum for all integers in array
+* sum of even integers exist in the array
+* average
+* number of elements below average
+* maximum integer
+* minimum integer
+
+```java
+import java.util.Scanner;
+
+class Q6{
+
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        int num[] = new int[9], sumEvenIndex = 0, sumOddIndex = 0, sumAll = 0, sumEvenInt = 0, belowAvg = 0, intMax = 0, intMin = 9999999;
+        double average = 0.0;
+
+        for(int i = 0; i < num.length; i++){
+
+            System.out.print("Enter integer #" + (i + 1) + ": ");
+            num[i] = sc.nextInt();
+
+            // Sum of elements present at even indexes and odd indexes in array
+            if(i % 2 == 0){sumEvenIndex += num[i];}
+            else{sumOddIndex += num[i];}
+
+            // Sum for all integers in array
+            sumAll += num[i];
+
+            // Sum of even integers exist in the array
+            if(num[i] % 2 == 0){sumEvenInt += num[i];}
+
+            // Determine maximum and minimum integer
+            if(num[i] > intMax){intMax = num[i];}
+            if(num[i] < intMin){intMin = num[i];}
+        }
+        
+        // Determine average
+        average = (sumAll + 0.0) / num.length; // Convert (sumAll + 0.0) to double so will be double / int = double
+
+        // Determine number of elements below average
+        for(int j = 0; j < num.length; j++){
+
+            if(num[j] < average){belowAvg++;}
+        }
+
+        System.out.println("Sum of elements present at even indexes in array is " + sumEvenIndex);
+        System.out.println("Sum of elements present at odd indexes in array is " + sumOddIndex);
+        System.out.println("Sum of all integers in array is " + sumAll);
+        System.out.println("Sum of even integers exist in array is " + sumEvenInt);
+        System.out.println("Average is " + average);
+        System.out.println("Number of elements below average is " + belowAvg);
+        System.out.println("Maximum integer is " + intMax);
+        System.out.println("Minimum integer is " + intMin);
+
+        sc.close();
+    }
+}
+```
