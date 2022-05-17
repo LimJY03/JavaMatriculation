@@ -331,7 +331,8 @@ Program Z is used to summarize sale of a café owner for a week. By using array,
 * Number of sale that is above average
 * The highest sale
 * The lowest sale
-* Display “TOTAL SALE IS NOT ENOUGH.” if total sale is less than 25000. Else, display “BUSINESS ARE PROFITABLE".
+
+Display “TOTAL SALE IS NOT ENOUGH.” if total sale is less than 25000. Else, display “BUSINESS ARE PROFITABLE".
 
 > ```java
 > import java.util.Scanner;
@@ -391,7 +392,7 @@ Write a `Java` program to solve the tasks below:
 
 * Ask the user to input a series of number (enter 0 to stop).
 * Calculate the sum of all positive numbers.
-* Count the number of even numbers
+* Count the number of even numbers.
 * Count the numbers that are divisible by 3.
 
 > ```java
