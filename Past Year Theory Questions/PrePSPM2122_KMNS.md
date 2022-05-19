@@ -53,15 +53,15 @@ The purpose of the above pseudocode is to calculate the sum of number from 10 to
 > 
 > Corrected Pseudocode:
 > 
->&emsp;Begin
-><br>&emsp;&emsp;Set Sum = 0
-><br>&emsp;&emsp;Set Counter = 10
-><br>&emsp;&emsp;While (Counter <= 100) then
-><br>&emsp;&emsp;&emsp;Sum = Sum + Counter
-><br>&emsp;&emsp;&emsp;Counter = Counter + 10
-><br>&emsp;&emsp;EndWhile
-><br>&emsp;&emsp;Print “Sum of the Numbers = “,Sum
-><br>&emsp;End
+> &emsp;BEGIN
+> <br>&emsp;&emsp;SET Sum = 0
+> <br>&emsp;&emsp;SET Counter = 10
+> <br>&emsp;&emsp;WHILE Counter <= 100
+> <br>&emsp;&emsp;&emsp;Sum = Sum + Counter
+> <br>&emsp;&emsp;&emsp;Counter = Counter + 10
+> <br>&emsp;&emsp;ENDWHILE
+> <br>&emsp;&emsp;PRINT "Sum of the Numbers = ", Sum
+> <br>&emsp;END
 
 Convert the following `Java` segment program to `while` structure.
 
@@ -267,18 +267,18 @@ The registration information for programming seminar is as follows:
 
 The price per person depends on the number of registrant(s) that a company registers. (For example, if a company registers four people, the amount that should be paid by a company is RM400). This program reads company’s name and number of registrant(s). Then, it should output the company’s name, number of registrants and the amount charged. Write a pseudocode to answer these question.
 
-> Start
-> <br>&emsp;Read companyName
-> <br>&emsp;Read registrantCount
-> <br>&emsp;If(registrantCount >= 10)
-> <br>&emsp;&emsp;payment = registrantCount * 80
-> <br>&emsp;Else if(registrantCount >= 4)
-> <br>&emsp;&emsp;payment = registrantCount * 100
-> <br>&emsp;Else
-> <br>&emsp;&emsp;payment = registrantCount * 150
-> <br>&emsp;Endif
-> <br>&emsp;Print companyName, registrantCount, payment
-> <br>Stop
+> START
+> <br>&emsp;INPUT companyName
+> <br>&emsp;INPUT registrantCount
+> <br>&emsp;IF registrantCount >= 10 THEN
+> <br>&emsp;&emsp;payment = registrantCount × 80
+> <br>&emsp;ELSE IF registrantCount >= 4 THEN
+> <br>&emsp;&emsp;payment = registrantCount × 100
+> <br>&emsp;ELSE
+> <br>&emsp;&emsp;payment = registrantCount × 150
+> <br>&emsp;ENDIF
+> <br>&emsp;PRINT companyName, registrantCount, payment
+> <br>STOP
 
 Calculate surface area of right cylinder based on formula for 15 times. If the surface area is greater or equal to 1000 display message, “Wow…. So huge”, if the surface area is less than 5 display a message, “Miniature”, else “Just nice”. Draw a flowchart to answer these question. Given that:
 
