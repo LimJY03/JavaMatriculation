@@ -60,14 +60,14 @@ A programmer is responsible for creating a program that displays a student's per
 Based on the scenario, write a pseudocode.
 
 > START
-> <br>&emsp;READ mark
+> <br>&emsp;INPUT mark
 > <br>&emsp;IF mark >= 80 && mark <= 100 THEN
 > <br>&emsp;&emsp;PRINT "Excellent"
 > <br>&emsp;ELSE IF mark >= 50 THEN
 > <br>&emsp;&emsp;PRINT "Average"
 > <br>&emsp;ELSE
 > <br>&emsp;&emsp;PRINT "Weak"
-> <br>&emsp;END IF
+> <br>&emsp;ENDIF
 > <br>STOP
 
 Fain intends to build a programme that adds the sums of even numbers from 50 to 500. A total sum should be displayed in the program. Draw a flowchart to assist Fain in solving the problem.
