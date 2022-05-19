@@ -230,7 +230,7 @@ Write a `Java` program for a class named `HighestClass` to find the highest mark
 >         int n = 0;
 >         double resultHighest = 0.0;
 > 
->         System.out.print("Enter number of studenst: ");
+>         System.out.print("Enter number of students: ");
 >         n = sc.nextInt();
 > 
 >         double[] mark = new double[n];

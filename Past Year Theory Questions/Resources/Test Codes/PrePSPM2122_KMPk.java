@@ -11,7 +11,7 @@ class Q4{
         int n = 0;
         double resultHighest = 0.0;
 
-        System.out.print("Enter number of studenst: ");
+        System.out.print("Enter number of students: ");
         n = sc.nextInt();
 
         double[] mark = new double[n];
