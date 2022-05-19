@@ -234,23 +234,23 @@ Draw a flowchart that accepts mark of N students in a class. Calculate and displ
 
 A survey is being carried out which involves reading and recording sound levels near a busy road junction. A sound level of 0 decibels (0 dB) indicate the end of the data. Write an algorithm, using pseudocode, which inputs all the sound levels and after a sound level of 0 is input, outputs the average sound level and the highest recorded sound level.
 
-> Start
-> <br>&emsp;Set count = 0
-> <br>&emsp;Set sum = 0
-> <br>&emsp;Set soundHighest = 0
-> <br>&emsp;Read soundLevel
-> <br>&emsp;While(soundLevel != 0)
-> <br>&emsp;&emsp;Read soundLevel
+> START
+> <br>&emsp;SET count = 0
+> <br>&emsp;SET sum = 0
+> <br>&emsp;SET soundHighest = 0
+> <br>&emsp;INPUT soundLevel
+> <br>&emsp;WHILE soundLevel != 0
+> <br>&emsp;&emsp;READ soundLevel
 > <br>&emsp;&emsp;sum = sum + soundLevel
 > <br>&emsp;&emsp;count = count + 1
-> <br>&emsp;&emsp;If(soundLevel > soundHighest)
+> <br>&emsp;&emsp;IF soundLevel > soundHighest THEN
 > <br>&emsp;&emsp;&emsp;soundHighest = soundLevel
-> <br>&emsp;&emsp;Endif
-> <br>&emsp;Endwhile
+> <br>&emsp;&emsp;ENDIF
+> <br>&emsp;ENDWHILE
 > <br>&emsp;average = sum / count
-> <br>&emsp;Print average
-> <br>&emsp;Print soundHighest
-> <br>Stop
+> <br>&emsp;PRINT average
+> <br>&emsp;PRINT soundHighest
+> <br>STOP
 
 # **Question 06**
 
