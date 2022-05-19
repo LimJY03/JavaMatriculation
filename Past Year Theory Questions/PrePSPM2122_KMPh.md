@@ -39,16 +39,16 @@ The total wage of part time staff at "MAP OF THE SOUL” store is based on the w
 
 Calculate and display the total wage using the pseudocode algorithm.
 
-> Start
-> <br>&emsp;Read hours
-> <br>&emsp;Read wagePerHour
-> <br>&emsp;If(hours > 35)
-> <br>&emsp;&emsp;wages = 35 * wagePerHour + (hourws - 35) * (2 * wagePerHour)
-> <br>&emsp;Else
-> <br>&emsp;&emsp;wages = hours * wagePerHour
-> <br>&emsp;Endif
-> <br>&emsp;Print wages
-> <br>Stop
+> START
+> <br>&emsp;INPUT hours
+> <br>&emsp;INPUT wagePerHour
+> <br>&emsp;IF hours > 35 THEN
+> <br>&emsp;&emsp;wages = 35 × wagePerHour + (hours - 35) × (2 × wagePerHour)
+> <br>&emsp;ELSE
+> <br>&emsp;&emsp;wages = hours × wagePerHour
+> <br>&emsp;ENDIF
+> <br>&emsp;PRINT wages
+> <br>STOP
 
 The pseudocode below is an algorithm to determine whether a number input by the user is a prime number or not. Create a flowchart based on the given pseudocode.
 
