@@ -65,7 +65,7 @@ Write a pseudocode to find the distance using two coordinates.
 
 > START
 > <br>&emsp;INPUT x1, y1, x2, y2
-> <br>&emsp;distance = sqrt((x2-x1)\*(x2-x1) + (y2-y1)\*(y2-y1))
+> <br>&emsp;distance = sqrt((x2-x1) × (x2-x1) + (y2-y1) × (y2-y1))
 > <br>&emsp;PRINT distance
 > <br>STOP
 
