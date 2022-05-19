@@ -33,11 +33,11 @@ KMS’s Bookstore is doing a End Year sales promotion. Total price will be calcu
 > START
 > <br>&emsp;INPUT quantity
 > <br>&emsp;INPUT itemPrice
-> <br>&emsp;totalPrice = quantity * itemPrice
+> <br>&emsp;totalPrice = quantity × itemPrice
 > <br>&emsp;IF totalPrice > 15.0 THEN
-> <br>&emsp;&emsp;discount = 0.15 * totalPrice
+> <br>&emsp;&emsp;discount = 0.15 × totalPrice
 > <br>&emsp;ELSE
-> <br>&emsp;&emsp;discount = 0.05 * totalPrice
+> <br>&emsp;&emsp;discount = 0.05 × totalPrice
 > <br>&emsp;ENDIF
 > <br>&emsp;finalPrice = totalPrice - discount
 > <br>&emsp;PRINT finalPrice
