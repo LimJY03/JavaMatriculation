@@ -75,6 +75,8 @@ Write a pseudocode to calculate the incentives that will be received by the empl
 Draw a flowchart for a program that asks the user for the number of children in each family. If the number of children is larger than three, the computer will calculate the total of a large family. When the user enters -1, the program will stop and display the total of the large family with the message "Family needs MPV."
 
 > ![2122kmpp - Q2](https://github.com/LimJY03/JavaMatriculation/blob/main/Past%20Year%20Theory%20Questions/Resources/Images/2122kmpp%20-%20Q2.png?raw=true)
+>
+> Error in Flowchart: For both OUTPUTs: `large` and `"Family needs MPV"`, the word "PRINT" should be written in the parallelogram as well.
 
 # **Question 03**
 
@@ -202,21 +204,21 @@ The following `Java` codes contain syntax errors. Rewrite the correct version of
 int x = 200;
 System.out.println (Value x = , x); //Required output : Value x = 100
 
-/* To output Hello string
+/* To output the String "Hello"
 System.out.println(Hello);
 ```
 
 > ```java
 > int x = 200;
-> System.out.println("Value x = " + x);
+> System.out.println("Value x = " + x - 100); // Converts 200 in x to 100
 > 
-> /* To output Hello String */
+> // To output the String "Hello"
 > System.out.println("Hello");
 > ```
 
 # **Question 04**
 
-Construct a non-static user-defined method name statusAchievement, which receives a value from a method call. The method display message “Congratulation, you are among a top achiever ” if sales is greater than RM5000. Otherwise display “Keep working hard”.
+Construct a non-static user-defined method name `statusAchievement`, which receives a value from a method call. The method display message “Congratulation, you are among a top achiever ” if sales is greater than RM5000. Otherwise display “Keep working hard”.
 
 > ```java
 > void statusAchievement(double sales){
