@@ -88,17 +88,17 @@ Prepare a flowchart to print the total allowance of a lecturer.
 
 Write the pseudocode for a program that finds sum of squares of the first 30 integers: 1² + 2² + 3² + ... by using `while` loop. Then, display the average.
 
-> Start
-> <br>&emsp;Set i = 1
-> <br>&emsp;Set sum = 0
-> <br>&emsp;While(i <= 30)
-> <br>&emsp;&emsp;sum = sum + (i * i)
+> START
+> <br>&emsp;SET i = 1
+> <br>&emsp;SET sum = 0
+> <br>&emsp;WHILE i <= 30
+> <br>&emsp;&emsp;sum = sum + (i × i)
 > <br>&emsp;&emsp;count = count + 1
-> <br>&emsp;Endwhile
-> <br>&emsp;Print sum
+> <br>&emsp;ENDWHILE
+> <br>&emsp;PRINT sum
 > <br>&emsp;average = sum / 30
-> <br>&emsp;Print average
-> <br>Stop
+> <br>&emsp;PRINT average
+> <br>STOP
 
 # **Question 03**
 
