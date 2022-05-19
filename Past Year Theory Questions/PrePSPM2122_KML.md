@@ -63,25 +63,25 @@ The following formula is calculate distance between two coordinates, (*x1*,*y1*)
 
 Write a pseudocode to find the distance using two coordinates.
 
-> Start
-> <br>&emsp;Read x1, y1, x2, y2
+> START
+> <br>&emsp;INPUT x1, y1, x2, y2
 > <br>&emsp;distance = sqrt((x2-x1)\*(x2-x1) + (y2-y1)\*(y2-y1))
-> <br>&emsp;Print distance
-> <br>Stop
+> <br>&emsp;PRINT distance
+> <br>STOP
 
 Write pseudocode to determine whether number is even or odd for 14 different positive numbers.
 
-> Start
-> <br>&emsp;Set counter = 0
-> <br>&emsp;While(counter < 14)
-> <br>&emsp;&emsp;Read number
-> <br>&emsp;&emsp;If(number % 2 == 0)
-> <br>&emsp;&emsp;&emsp;Print "even number"
-> <br>&emsp;&emsp;Else
-> <br>&emsp;&emsp;&emsp;Print "odd number"
-> <br>&emsp;&emsp;Endif
-> <br>&emsp;Endwhile
-> <br>Stop
+> START
+> <br>&emsp;SET counter = 0
+> <br>&emsp;WHILE counter < 14
+> <br>&emsp;&emsp;INPUT number
+> <br>&emsp;&emsp;IF number % 2 == 0 THEN
+> <br>&emsp;&emsp;&emsp;PRINT "even number"
+> <br>&emsp;&emsp;ELSE
+> <br>&emsp;&emsp;&emsp;PRINT "odd number"
+> <br>&emsp;&emsp;ENDIF
+> <br>&emsp;ENDWHILE
+> <br>STOP
 
 Draw flowchart based on `Java` segment given.
 
