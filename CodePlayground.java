@@ -327,3 +327,13 @@ class TabTest{
         // "\t" works like a normal tab, it is not 4 whitespaces.
     }
 }
+
+class dataTypeTest{
+
+    public static void main(String[] args){
+
+        int d;
+
+        d = Math.pow(2, 4); // Math.pow returns double, and Error occurs here.
+    }
+}
