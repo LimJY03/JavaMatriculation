@@ -160,19 +160,19 @@ A student will not be fined if he returns the car he rent within 24 hours. Other
 
 The vice president would like to know the oldest age of participant that attend the meeting. The number of people attend will be recorded before they the start the meeting. Create a pseudocode to solve the following problem.
 
-> Start
-> <br>&emsp;Set counter = 0
-> <br>&emsp;Set ageOldest = 0
-> <br>&emsp;Read peopleCount
-> <br>&emsp;while(counter < peopleCount)
-> <br>&emsp;&emsp;Read age
-> <br>&emsp;&emsp;If(age > ageOldest)
+> START
+> <br>&emsp;SET counter = 0
+> <br>&emsp;SET ageOldest = 0
+> <br>&emsp;INPUT peopleCount
+> <br>&emsp;WHILE counter < peopleCount
+> <br>&emsp;&emsp;INPUT age
+> <br>&emsp;&emsp;IF age > ageOldest THEN
 > <br>&emsp;&emsp;&emsp;ageOldest = age
-> <br>&emsp;&emsp;Endif
+> <br>&emsp;&emsp;ENDIF
 > <br>&emsp;&emsp;counter = counter + 1
-> <br>&emsp;Endwhile
-> <br>&emsp;Print ageOldest
-> <br>Stop
+> <br>&emsp;ENDWHILE
+> <br>&emsp;PRINT ageOldest
+> <br>STOP
 
 # **Question 07**
 
