@@ -33,7 +33,7 @@ According to the library rules, a student will not be fined if he/she returns th
 > <br>&emsp;IF returnInterval < 14 THEN
 > <br>&emsp;&emsp;PRINT "Thank you for early return."
 > <br>&emsp;ELSE
-> <br>&emsp;&emsp;fine = 0.5 × bookCount × returnInterval - 14)
+> <br>&emsp;&emsp;fine = 0.5 × bookCount × (returnInterval - 14)
 > <br>&emsp;&emsp;PRINT fine
 > <br>&emsp;ENDIF
 > <br>STOP
