@@ -28,15 +28,15 @@ Give two (2) ways to perform the last step of problem-solving.
 
 According to the library rules, a student will not be fined if he/she returns the book(s) borrowed within 14 days. Otherwise, the student will be fined 50 cents a book for each day of late return. Calculate and display the amount of fine that a student has to pay, or display a message “Thank you for early return”. Based on the given scenario, design the algorithm using pseudocode.
 
-> Start
-> <br>&emsp;Read returnInterval
-> <br>&emsp;If(returnInterval < 14)
-> <br>&emsp;&emsp;Print "Thank you for early return."
-> <br>&emsp;Else
-> <br>&emsp;&emsp;fine = 0.5 * bookCount * *returnInterval - 14)
-> <br>&emsp;&emsp;Print fine
-> <br>&emsp;Endif
-> <br>Stop
+> START
+> <br>&emsp;INPUT returnInterval
+> <br>&emsp;IF returnInterval < 14 THEN
+> <br>&emsp;&emsp;PRINT "Thank you for early return."
+> <br>&emsp;ELSE
+> <br>&emsp;&emsp;fine = 0.5 × bookCount × returnInterval - 14)
+> <br>&emsp;&emsp;PRINT fine
+> <br>&emsp;ENDIF
+> <br>STOP
 
 Ahmad decided to sell a shirt that he just bought to his friend. Determine whether he gains profit or suffers a loss or breaks even (i.e not gaining profit nor loss) from the transaction. Based on the given scenario, design the algorithm using a flowchart.
 
