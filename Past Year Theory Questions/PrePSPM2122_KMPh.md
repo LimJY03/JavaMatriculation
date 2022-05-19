@@ -35,7 +35,7 @@ As a system analyst, create an IPO chart for the Shopink apps to accepts a list 
 
 # **Question 02**
 
-The total wage of part time staff at "MAP OF THE SOUL” store is based on the wages per hour and t"e number of hours worked. In addition, if the staff has worked for more than 35 hours, then she or he can gets twice the wages per hour, for every extra hour that she or he has worked, otherwise the wages is based on the rate per hour.
+The total wage of part time staff at "MAP OF THE SOUL” store is based on the wages per hour and the number of hours worked. In addition, if the staff has worked for more than 35 hours, then she or he can gets twice the wages per hour, for every extra hour that she or he has worked, otherwise the wages is based on the rate per hour.
 
 Calculate and display the total wage using the pseudocode algorithm.
 
@@ -63,9 +63,9 @@ Begin
         Increase divisor by 1
     end while
     if isPrime = 1
-        display "Pri"e”
+        display "Prime"
     else
-        display "Not Pri"e”
+        display "Not Prime"
 End
 ```
 
@@ -293,7 +293,7 @@ Write a method named `sumNumber` to find the sum of numbers from 1 to 30 and ret
 > 
 >         int sum = 0;        
 > 
->         for(int i = 0; i <= 30; i++){
+>         for(int i = 1; i <= 30; i++){
 >             sum += i;
 >         }
 >         
