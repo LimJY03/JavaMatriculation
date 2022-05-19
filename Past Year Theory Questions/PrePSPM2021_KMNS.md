@@ -77,23 +77,23 @@ Write a pseudocode that compute the payment of electricity consumption. Inputs a
 | Exceed 100 to 300 Unit | 0.22 per unit |
 | Greater than 300 Unit | 0.28 per unit |
 
-> Start
-> <br>&emsp;Set count = 0
-> <br>&emsp;While(count < 10)
-> <br>&emsp;&emsp;Read meterPrevious
-> <br>&emsp;&emsp;Read meterCurrent
+> START
+> <br>&emsp;SET count = 0
+> <br>&emsp;WHILE count < 10
+> <br>&emsp;&emsp;INPUT meterPrevious
+> <br>&emsp;&emsp;INPUT meterCurrent
 > <br>&emsp;&emsp;consumption = meterCurrent - meterPrevious
-> <br>&emsp;&emsp;If(consumption > 300)
-> <br>&emsp;&emsp;&emsp;payment = 100 * 20 + 200 * 0.22 + (consumption - 300) * 0.28
-> <br>&emsp;&emsp;Else if(consumption > 100)
-> <br>&emsp;&emsp;&emsp;payment = 100 * 20 + (consumption - 200) * 0.22
-> <br>&emsp;&emsp;Else
+> <br>&emsp;&emsp;IF consumption > 300 THEN
+> <br>&emsp;&emsp;&emsp;payment = 20 + 200 × 0.22 + (consumption - 300) × 0.28
+> <br>&emsp;&emsp;ELSE IF consumption > 100 THEN
+> <br>&emsp;&emsp;&emsp;payment = 20 + (consumption - 200) × 0.22
+> <br>&emsp;&emsp;ELSE
 > <br>&emsp;&emsp;&emsp;payment = 100
-> <br>&emsp;&emsp;Endif
-> <br>&emsp;&emsp;Print payment
-> <br>&emsp;&emsp;count = count + 1
-> <br>&emsp;Endwhile
-> <br>Stop
+> <br>&emsp;&emsp;ENDIF
+> <br>&emsp;&emsp;PRINT payment
+> <br>&emsp;&emsp;PRINT = count + 1
+> <br>&emsp;ENDWHILE
+> <br>STOP
 
 Draw a flowchart with selection structure to display “Weekend” if the input for variable day is “Sun” or “Sat”. Otherwise display “Weekdays”.
 
