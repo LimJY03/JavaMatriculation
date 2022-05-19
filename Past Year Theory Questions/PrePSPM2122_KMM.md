@@ -54,17 +54,17 @@ Example:
 * If the mileage is 600 km, the payable sum RM290.00 (that is 250 + 40).
 * If the mileage is 800 km, the payable sum RM360.00 (that is 250 + 80 + 30).
 
-> Start
-> <br>&emsp;Read km
-> <br>&emsp;If(km > 700)
-> <br>&emsp;&emsp;payment = 500 * 0.50 + 200 * 0.40 + (km - 700) * 0.30
-> <br>&emsp;Else if(km > 500)
-> <br>&emsp;&emsp;payment = 500 * 0.50 + (km - 500) * 0.40
-> <br>&emsp;Else
-> <br>&emsp;&emsp;payment = km * 0.50
-> <br>&emsp;Endif
-> <br>&emsp;Print payment
-> <br>Stop
+> START
+> <br>&emsp;INPUT km
+> <br>&emsp;IF km > 700 THEN
+> <br>&emsp;&emsp;payment = 500 × 0.50 + 200 × 0.40 + (km - 700) × 0.30
+> <br>&emsp;ELSE IF km > 500 THEN
+> <br>&emsp;&emsp;payment = 500 × 0.50 + (km - 500) × 0.40
+> <br>&emsp;ELSE
+> <br>&emsp;&emsp;payment = km × 0.50
+> <br>&emsp;ENDIF
+> <br>&emsp;PRINT payment
+> <br>STOP
 
 Draw a flowchart to ask the user for the length of their bus/car ride until the user enters 0. Print the average of the lengths.
 
