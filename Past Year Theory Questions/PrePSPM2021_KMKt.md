@@ -67,34 +67,34 @@ Study the formula below.
 
 Calculate and display volume (*V*) but radius (*r*) must be entered by user. Write a pseudocode based on the given formula.
 
-> Start
-> <br>&emsp;Read r
-> <br>&emsp;Set PI = 3.141592653
-> <br>&emsp;V = (4/3) * PI * r * r * r
-> <br>&emsp;Print V
-> <br>Stop
+> START
+> <br>&emsp;SET PI = 3.14159265
+> <br>&emsp;INPUT r
+> <br>&emsp;V = (4/3) × PI × r × r × r
+> <br>&emsp;PRINT V
+> <br>STOP
 
 Write a pseudocode to solve the following problem.
 
 Econjaya Kok Lanas is doing year end sales promotion. If a customer purchases more than 5 items AND the total purchase price is above RM100.00, the customer will be given 15% discount. If purchasing less than or equal to 5 items, a 5% discount will be given regardless of the total purchase price. Calculate the pay price to be paid by the customer.
 
-> Start
-> <br>&emsp;Set counter = 0
-> <br>&emsp;Set priceTotal = 0
-> <br>&emsp;Read items
-> <br>&emsp;Read itemPrice
-> <br>&emsp;Determine itemCount
-> <br>&emsp;While(counter < itemCount)
+> START
+> <br>&emsp;SET counter = 0
+> <br>&emsp;SET priceTotal = 0
+> <br>&emsp;INPUT items
+> <br>&emsp;INPUT itemPrice
+> <br>&emsp;INPUT itemCount
+> <br>&emsp;WHILE counter < itemCount
 > <br>&emsp;&emsp;priceTotal = priceTotal + itemPrice
-> <br>&emsp;Endwhile
-> <br>&emsp;If(itemCount > 5 && priceTotal > 100)
+> <br>&emsp;ENDWHILE
+> <br>&emsp;IF itemCount > 5 && priceTotal > 100 THEN
 > <br>&emsp;&emsp;discount = 15
-> <br>&emsp;Else
+> <br>&emsp;ELSE
 > <br>&emsp;&emsp;discount = 5
-> <br>&emsp;Endif
+> <br>&emsp;ENDIF
 > <br>&emsp;pricePay = priceTotal * (1 - (discount / 100))
-> <br>&emsp;Print pricePay
-> <br>Stop
+> <br>&emsp;PRINT pricePay
+> <br>STOP
 
 Study the statement below, and then draw a flowchart to solve the problem.
 
