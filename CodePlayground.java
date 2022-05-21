@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.text.DecimalFormat;
+import java.lang.Math;
 
 class CodePlayground{}
 
@@ -328,12 +329,34 @@ class TabTest{
     }
 }
 
-class dataTypeTest{
+class DataTypeTest{
 
     public static void main(String[] args){
 
         int d;
 
         d = Math.pow(2, 4); // Math.pow returns double, and Error occurs here.
+    }
+}
+
+class DisplayNumbersEndWith4{
+
+    public static void main(String[] args){
+
+        for(int i = 0; i <= 1000; i++){            
+
+            if(Math.pow(2, i) % 10 == 4.0){
+                System.out.println(i + ": " + Math.pow(2, i));
+            }
+        }
+    }
+}
+
+class DisplayLastDigit{
+
+    public static void main(String[] args){
+
+        int n = 2022;
+        System.out.println((int)(Math.pow(2, n) % 10));
     }
 }
