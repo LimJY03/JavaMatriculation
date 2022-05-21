@@ -92,7 +92,7 @@ Econjaya Kok Lanas is doing year end sales promotion. If a customer purchases mo
 > <br>&emsp;ELSE
 > <br>&emsp;&emsp;discount = 5
 > <br>&emsp;ENDIF
-> <br>&emsp;pricePay = priceTotal * (1 - (discount / 100))
+> <br>&emsp;pricePay = priceTotal × (1 - (discount / 100))
 > <br>&emsp;PRINT pricePay
 > <br>STOP
 

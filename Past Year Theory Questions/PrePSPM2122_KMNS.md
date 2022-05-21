@@ -316,7 +316,7 @@ A method `swapNumber()` in the class `Swap` is used to swap the values of two in
 > 
 >     int tmp = a;
 >     a = b;
->     b = temp;
+>     b = tmp;
 > 
 >     System.out.println("After swap, x = " + a + ", y = " + b);
 > }

@@ -23,7 +23,7 @@ Identify the most suitable type of control structure based on the given problem.
 
 Describe one (1) purpose of using repetition control structure in `Java` program.
 
-> To repeated instructions or statements until a certain condition is met.
+> To repeate instructions or statements until a certain condition is met.
 
 # **Question 02**
 
@@ -312,7 +312,7 @@ Write `Java` assignment statements for the following algebraic equations.
 2. 2*a* / (*b* + *c*)
 
 > ```java
-> result = 2 * a / (b * c);
+> result = 2 * a / (b + c);
 > ```
 
 3. (*x* + *y*) / 2
