@@ -1,6 +1,6 @@
 # **JavaMatriculation**
 
-This repository stores the syntax and codes for `java` programming. The main source of reference is the book "*Approach in Problem Solving: Programming with Java 2nd Edition (Ed.)*" by Ruzman M. Ali, published in Kelantan Matriculation College.
+This repository contains a collection of simple `java` codes that are created for the Malaysian Matriculation Computer Science up to 2021/22 syllabus.
 
 There are 5 main folders in this repository:
 
