@@ -6,11 +6,11 @@ class Bowling{
 
     HashMap<String, Integer> players;
 
-    Bowling() {
+    Bowling(){
         players = new HashMap<String, Integer>();
     }
 
-    public void addPlayer(String name, int p) {
+    public void addPlayer(String name, int p){
         players.put(name, p);
     }
 
@@ -32,14 +32,14 @@ class Bowling{
     }    
 }
 
-class Program {
+class Program{
 
     public static void main(String[] args){
 
         Bowling game = new Bowling();
         Scanner sc = new Scanner(System.in);
 
-        for(int i = 0; i < 3; i++) {
+        for(int i = 0; i < 3; i++){
 
             String input = sc.nextLine();
             String[] values = input.split(" ");
@@ -51,6 +51,6 @@ class Program {
 
         game.getWinner();
 
-        sc.clsoe();
+        sc.close();
     }
 }
